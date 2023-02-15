@@ -6,48 +6,90 @@ Presentation
     id: presentation
 
     Timer {
-        interval: 15000
+        id: advanceTimer
+        interval: 8000
         running: true
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
+    
     Slide {
         Image {
-            anchors.centerIn: parent
             id: image1
-            x:0
-            y:0
-            width: 817
-            height: 466
+            source: "Base.png"
             fillMode: Image.PreserveAspectFit
-            smooth: true
-            source: "Installers.png"
+            anchors.centerIn: parent
+	    x: -100
+            y: 0
+        }
+        Text {
+            anchors.horizontalCenter: background.horizontalCenter
+            anchors.top: background.bottom
+            text: "Ubuntu is <br/>"+
+                  "about to get <br/>"+
+                  "rolling."
+            wrapMode: Text.WordWrap
+            width: presentation.width
+            horizontalAlignment: Text.Left
+	    x: 100
+            y: 0
+
         }
     }
+
     Slide {
+
         Image {
-            anchors.centerIn: parent
             id: image2
-            x: 0
-            y: 0
-            width: 817
-            height: 466
+            source: "Wizard.png"
             fillMode: Image.PreserveAspectFit
-            smooth: true
-            source: "NewLook.png"
-        }
-    }
-    Slide {
-        Image {
             anchors.centerIn: parent
-            id: image3
-            x: 0
+	    x: 100
             y: 0
-            width: 817
-            height: 466
-            fillMode: Image.PreserveAspectFit
-            smooth: true
-            source: "FindUs.png"
+        }
+        Text {
+            anchors.horizontalCenter: background.horizontalCenter
+            anchors.top: background.bottom
+            text: "Featuring our<br/>"+
+                  "own elegant new<br/>"+
+                  "setup wizard."
+            wrapMode: Text.WordWrap
+            width: presentation.width
+            horizontalAlignment: Text.Left
+	    x: -100
+            y: 0
+
         }
     }
+
+
+
+    Slide {
+
+        Image {
+            id: image3
+            source: "XFCE.png"
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+	    x: 100
+            y: 0
+        }
+        Text {
+            anchors.horizontalCenter: background.horizontalCenter
+            anchors.top: background.bottom
+            text: "With XFCE, <br/>"+
+                  "your desktop is<br/>"+
+                  "truly yours."
+            wrapMode: Text.WordWrap
+            width: presentation.width
+            horizontalAlignment: Text.Left
+	    x: -100
+            y: 0
+
+        }
+    }
+
+
+
+    Component.onCompleted: advanceTimer.running = true
 }
