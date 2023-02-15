@@ -1,29 +1,39 @@
 ---
-componentName: rhino
+componentName:  rhino
 
+welcomeStyleCalamares:   true
+welcomeExpandingLogo:   true
 windowExpanding:    normal
+windowSize: 720px,480px
+windowPlacement: center
+sidebar: widget
+navigation: widget
 
 strings:
     productName:         Rhino Linux
-    shortProductName:    Rhino Linux
+    shortProductName:    Rhino
     version:             23.04
-    shortVersion:        lunar
-    versionedName:       Rhino Linux
-    shortVersionedName:  Rhino Linux 23.04
+    shortVersion:        devel
+    versionedName:       Rhino Linux 23.04
+    shortVersionedName:  Rhino Linux
     bootloaderEntryName: Ubuntu
     productUrl:          https://rhinolinux.org/
     supportUrl:          https://rhinolinux.org/support
+    releaseNotesUrl:     https://rhinolinux.org/about
+    donateUrl:           https://rhinolinux.org/donate
 
 images:
+    productBanner:       "welcome.png"
+    productIcon:         "logo.png"
     productLogo:         "logo.png"
-    productIcon:         "icon.png"
-    productWelcome:      "welcome.png"
+    productWallpaper:    "waves.png"
+    productWelcome:      "languages.png"
 
 slideshow:               "show.qml"
-
-slideshowAPI:            1
+slideshowAPI: 2
 
 style:
-   SidebarBackground:    "#808080"
-   SidebarText:          "#FFFFFF"
-   SidebarTextSelect:    "#0068C8"
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
+   sidebarTextHighlight: "#D35400"
