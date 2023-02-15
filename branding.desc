@@ -27,7 +27,6 @@ images:
     productIcon:         "logo.png"
     productLogo:         "logo.png"
     productWallpaper:    "waves.png"
-    productWelcome:      "languages.png"
 
 slideshow:               "show.qml"
 slideshowAPI: 2
