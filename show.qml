@@ -20,7 +20,7 @@ Presentation
 	    width: 1080
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-	    y: 200
+	    y: 300
         }
     }
 
@@ -32,7 +32,7 @@ Presentation
 	    width: 1080
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-	    y: 200
+	    y: 300
         }
     }
 
@@ -46,7 +46,7 @@ Presentation
 	    width: 1080
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-	    y: 200
+	    y: 300
         }
     }
 
