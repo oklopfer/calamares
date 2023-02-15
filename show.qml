@@ -19,8 +19,7 @@ Presentation
             source: "Base.png"
 	    width: 1080
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-	    y: 300
+            anchors.centerIn: parent + 100
         }
     }
 
@@ -31,8 +30,7 @@ Presentation
             source: "Wizard.png"
 	    width: 1080
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-	    y: 300
+            anchors.centerIn: parent + 100
         }
     }
 
@@ -45,8 +43,7 @@ Presentation
             source: "XFCE.png"
 	    width: 1080
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-	    y: 300
+            anchors.centerIn: parent + 100
         }
     }
 
