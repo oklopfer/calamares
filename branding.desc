@@ -5,8 +5,8 @@ welcomeExpandingLogo:   true
 windowExpanding:    normal
 windowSize: 1280px,720px
 windowPlacement: center
-sidebar: qml,left
-navigation: widget
+sidebar: qml,bottom
+navigation: qml,right
 
 strings:
     productName:         Rhino Linux
