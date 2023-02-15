@@ -17,10 +17,10 @@ Presentation
         Image {
             id: image1
             source: "Base.png"
-	    width: 1055
+	    width: 1080
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-	    y: 100
+	    y: 200
         }
     }
 
@@ -29,10 +29,10 @@ Presentation
         Image {
             id: image2
             source: "Wizard.png"
-	    width: 1055
+	    width: 1080
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-	    y: 100
+	    y: 200
         }
     }
 
@@ -43,10 +43,10 @@ Presentation
         Image {
             id: image3
             source: "XFCE.png"
-	    width: 1055
+	    width: 1080
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-	    y: 100
+	    y: 200
         }
     }
 
