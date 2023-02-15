@@ -11,7 +11,7 @@ navigation: widget
 
 strings:
     productName:         Rhino Linux
-    shortProductName:    Rhino
+    shortProductName:    Rhino Linux
     version:             23.04
     shortVersion:        devel
     versionedName:       Rhino Linux 23.04
