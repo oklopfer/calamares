@@ -1,7 +1,6 @@
 ---
 componentName: rhino
 
-welcomeStyleCalamares:   true
 welcomeExpandingLogo:   true
 windowExpanding:    normal
 windowSize: 1280px,720px
