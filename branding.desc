@@ -4,7 +4,7 @@ componentName: rhino
 welcomeStyleCalamares:   true
 welcomeExpandingLogo:   true
 windowExpanding:    normal
-windowSize: 720px,480px
+windowSize: 1280px,720px
 windowPlacement: center
 sidebar: widget
 navigation: widget
