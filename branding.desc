@@ -5,7 +5,6 @@ welcomeExpandingLogo:   true
 windowExpanding:    normal
 windowSize: 1280px,720px
 windowPlacement: center
-sidebar: widget
 navigation: widget
 
 strings:
@@ -31,7 +30,7 @@ slideshow:               "show.qml"
 slideshowAPI: 2
 
 style:
-   #sidebarBackground:    "#292F34"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#FFFFFF"
-   sidebarTextHighlight: "#D35400"
+   SidebarBackground:    "#808080"
+   SidebarText:          "#FFFFFF"
+   SidebarTextSelect:    "#0068C8"
+
