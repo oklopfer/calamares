@@ -17,7 +17,7 @@ Presentation
         Image {
             id: image1
             source: "Base.png"
-	    width: 500px
+	    width: 500
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
 	    x: -100
@@ -43,7 +43,7 @@ Presentation
         Image {
             id: image2
             source: "Wizard.png"
-	    width: 500px
+	    width: 500
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
 	    x: 100
@@ -71,7 +71,7 @@ Presentation
         Image {
             id: image3
             source: "XFCE.png"
-	    width: 500px
+	    width: 500
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
 	    x: 100
