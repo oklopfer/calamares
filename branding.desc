@@ -3,7 +3,7 @@ componentName: rhino
 
 welcomeExpandingLogo:   true
 windowExpanding:    normal
-windowSize: 1230px,720px
+windowSize: 1200px,720px
 windowPlacement: center
 navigation: widget
 
